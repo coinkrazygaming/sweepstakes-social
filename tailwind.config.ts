@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Sweepstakes theme colors
+        gold: {
+          DEFAULT: "hsl(45, 100%, 51%)",
+          light: "hsl(45, 100%, 70%)",
+          dark: "hsl(45, 100%, 35%)",
+        },
+        purple: {
+          DEFAULT: "hsl(270, 100%, 60%)",
+          light: "hsl(270, 100%, 80%)",
+          dark: "hsl(270, 100%, 40%)",
+        },
+        neon: {
+          green: "hsl(120, 100%, 50%)",
+          blue: "hsl(200, 100%, 50%)",
+          pink: "hsl(320, 100%, 50%)",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
