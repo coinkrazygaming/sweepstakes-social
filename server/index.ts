@@ -2,6 +2,12 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
+import {
+  handleSlotSpin,
+  handleSlotStats,
+  handleUserBalance,
+  handleResetBalance
+} from "./routes/slots";
 
 export function createServer() {
   const app = express();
