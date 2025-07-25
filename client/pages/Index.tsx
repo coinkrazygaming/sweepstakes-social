@@ -5,18 +5,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Progress } from '@/components/ui/progress';
-import { 
-  Star, 
-  Trophy, 
-  Gift, 
-  Zap, 
-  Clock, 
-  Users, 
+import {
+  Star,
+  Trophy,
+  Gift,
+  Zap,
+  Clock,
+  Users,
   DollarSign,
   TrendingUp,
   Crown,
   Sparkles
 } from 'lucide-react';
+import AuthModal from '@/components/AuthModal';
 
 export default function Index() {
   const [userPoints] = useState(1250);
