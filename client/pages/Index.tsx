@@ -334,10 +334,10 @@ export default function Index() {
             <div>
               <h4 className="text-white font-medium mb-4">Community</h4>
               <ul className="space-y-2 text-sm text-gray-300">
+                <li><Link to="/dashboard" className="hover:text-gold transition-colors">Dashboard</Link></li>
                 <li><Link to="/leaderboard" className="hover:text-gold transition-colors">Leaderboard</Link></li>
                 <li><Link to="/winners" className="hover:text-gold transition-colors">Winners Gallery</Link></li>
                 <li><Link to="/referrals" className="hover:text-gold transition-colors">Refer Friends</Link></li>
-                <li><Link to="/blog" className="hover:text-gold transition-colors">Blog</Link></li>
               </ul>
             </div>
             
