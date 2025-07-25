@@ -24,6 +24,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/spin-wheel" element={<SpinWheelPage />} />
+          <Route path="/slots" element={<SlotsPage />} />
 
           {/* Game Routes */}
           <Route path="/games" element={<PlaceholderPage title="All Games" description="Browse all available sweepstakes and games" icon={<Gamepad2 className="h-12 w-12 text-gold" />} />} />
