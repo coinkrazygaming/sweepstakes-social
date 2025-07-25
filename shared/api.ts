@@ -96,3 +96,63 @@ export const SLOT_PAYLINES = [
   [2, 5, 8], // Right column
   [1, 3, 5], // V shape
 ];
+
+/**
+ * Pragmatic Play Slots Types
+ */
+export interface PragmaticSlot {
+  id: string;
+  name: string;
+  thumbnail: string;
+  category: string;
+  provider: string;
+  rtp: number;
+  volatility: 'Low' | 'Medium' | 'High';
+  maxWin: string;
+  features: string[];
+  isNew: boolean;
+  isPopular: boolean;
+  releaseDate: string;
+}
+
+export interface GameHistory {
+  id: string;
+  gameId: string;
+  gameName: string;
+  gameType: 'GC' | 'SC';
+  amount: number;
+  result: 'win' | 'loss';
+  winAmount?: number;
+  timestamp: number;
+  sessionId: string;
+}
+
+export interface UserProfile {
+  id: string;
+  username: string;
+  email: string;
+  gcBalance: number; // Gold Coins
+  scBalance: number; // Sweeps Coins
+  totalWins: number;
+  totalPlayed: number;
+  level: number;
+  joinDate: number;
+  lastLogin: number;
+}
+
+export interface AdminStats {
+  totalUsers: number;
+  activeUsers: number;
+  totalGamesPlayed: number;
+  totalGCWagered: number;
+  totalSCWagered: number;
+  totalPayouts: number;
+  revenueToday: number;
+  revenueMonth: number;
+}
+
+export interface PragmaticSlotsResponse {
+  slots: PragmaticSlot[];
+  total: number;
+  categories: string[];
+}
