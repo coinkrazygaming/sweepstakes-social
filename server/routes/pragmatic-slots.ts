@@ -1,11 +1,11 @@
 import { RequestHandler } from "express";
-import { 
-  PragmaticSlot, 
+import {
+  PragmaticSlot,
   PragmaticSlotsResponse,
   GameHistory,
   UserProfile,
   AdminStats
-} from "@shared/api";
+} from "../../shared/api";
 
 // Pragmatic Play slots data with real thumbnails
 const PRAGMATIC_SLOTS: PragmaticSlot[] = [
