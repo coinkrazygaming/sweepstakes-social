@@ -1,14 +1,14 @@
 import { RequestHandler } from "express";
-import { 
-  SlotSpinRequest, 
-  SlotSpinResponse, 
-  SlotResult, 
+import {
+  SlotSpinRequest,
+  SlotSpinResponse,
+  SlotResult,
   SlotStats,
-  SLOT_SYMBOLS, 
+  SLOT_SYMBOLS,
   SLOT_PAYLINES,
   WinLine,
   RecentSlotWinner
-} from "@shared/api";
+} from "../../shared/api";
 
 // In-memory storage (use database in production)
 let gameStats: SlotStats = {
