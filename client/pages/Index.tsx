@@ -39,15 +39,15 @@ export default function Index() {
     },
     {
       id: 2,
-      title: "Lucky Slots",
-      description: "Match symbols for instant prizes and jackpots",
-      prize: "50,000 pts",
-      odds: "1:200",
-      players: 3421,
-      image: "🎰",
-      category: "Slots",
+      title: "Pragmatic Play Slots",
+      description: "Premium slots with GC & SC dual currency",
+      prize: "Real Prizes",
+      odds: "RTP 96%+",
+      players: 8642,
+      image: "🎯",
+      category: "Premium",
       isNew: true,
-      link: "/slots"
+      link: "/pragmatic-slots"
     },
     {
       id: 3,
