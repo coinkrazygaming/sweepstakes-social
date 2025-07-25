@@ -83,6 +83,7 @@ export default function AuthModal({ children }: AuthModalProps) {
       </DialogTrigger>
       
       <DialogContent className="sm:max-w-md bg-card border-white/10">
+        <DialogTitle className="sr-only">Authentication</DialogTitle>
         <div className="flex flex-col items-center space-y-4">
           <div className="flex items-center space-x-2">
             <Crown className="h-8 w-8 text-gold animate-pulse-glow" />
