@@ -324,10 +324,10 @@ export default function Index() {
             <div>
               <h4 className="text-white font-medium mb-4">Games</h4>
               <ul className="space-y-2 text-sm text-gray-300">
+                <li><Link to="/pragmatic-slots" className="hover:text-gold transition-colors">Pragmatic Slots</Link></li>
                 <li><Link to="/spin-wheel" className="hover:text-gold transition-colors">Spin Wheel</Link></li>
+                <li><Link to="/slots" className="hover:text-gold transition-colors">Lucky Slots</Link></li>
                 <li><Link to="/scratch-cards" className="hover:text-gold transition-colors">Scratch Cards</Link></li>
-                <li><Link to="/daily-draws" className="hover:text-gold transition-colors">Daily Draws</Link></li>
-                <li><Link to="/instant-win" className="hover:text-gold transition-colors">Instant Win</Link></li>
               </ul>
             </div>
             
