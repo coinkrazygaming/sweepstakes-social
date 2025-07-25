@@ -34,10 +34,23 @@ export default function Index() {
       players: 2847,
       image: "🎰",
       category: "Instant Win",
-      isHot: true
+      isHot: true,
+      link: "/spin-wheel"
     },
     {
       id: 2,
+      title: "Lucky Slots",
+      description: "Match symbols for instant prizes and jackpots",
+      prize: "50,000 pts",
+      odds: "1:200",
+      players: 3421,
+      image: "🎰",
+      category: "Slots",
+      isNew: true,
+      link: "/slots"
+    },
+    {
+      id: 3,
       title: "Crypto Scratch Cards",
       description: "Scratch to win Bitcoin & Ethereum",
       prize: "1 BTC",
@@ -45,10 +58,10 @@ export default function Index() {
       players: 1523,
       image: "🪙",
       category: "Crypto",
-      isNew: true
+      link: "/scratch-cards"
     },
     {
-      id: 3,
+      id: 4,
       title: "Daily Gift Card Draw",
       description: "Win Amazon, Apple, and more gift cards",
       prize: "$500",
@@ -56,7 +69,8 @@ export default function Index() {
       players: 5429,
       image: "🎁",
       category: "Gift Cards",
-      endsIn: "6h 23m"
+      endsIn: "6h 23m",
+      link: "/daily-draws"
     }
   ];
 
