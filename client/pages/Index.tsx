@@ -241,9 +241,14 @@ export default function Index() {
                       </div>
                     )}
 
-                    <Button className="w-full bg-gold text-black hover:bg-gold-dark font-medium group-hover:animate-pulse-glow">
-                      <Gift className="mr-2 h-4 w-4" />
-                      Play Now
+                    <Button
+                      asChild
+                      className="w-full bg-gold text-black hover:bg-gold-dark font-medium group-hover:animate-pulse-glow"
+                    >
+                      <Link to={game.link}>
+                        <Gift className="mr-2 h-4 w-4" />
+                        Play Now
+                      </Link>
                     </Button>
                   </div>
                 </CardContent>
