@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Crown, ArrowLeft } from 'lucide-react';
 import SpinWheel from '@/components/SpinWheel';
+import AuthModal from '@/components/AuthModal';
 
 export default function SpinWheelPage() {
   return (
