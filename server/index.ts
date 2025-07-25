@@ -39,5 +39,13 @@ export function createServer() {
   app.get("/api/slots/balance/:userId?", handleUserBalance);
   app.post("/api/slots/reset-balance/:userId?", handleResetBalance);
 
+  // Pragmatic Play slots API routes
+  app.get("/api/pragmatic/slots", getPragmaticSlots);
+  app.post("/api/pragmatic/play", playPragmaticSlot);
+  app.get("/api/user/profile/:userId?", getUserProfile);
+  app.get("/api/user/history/:userId?", getUserHistory);
+  app.get("/api/admin/stats", getAdminStats);
+  app.post("/api/admin/reset-balance/:userId?", resetUserBalance);
+
   return app;
 }
