@@ -8,6 +8,14 @@ import {
   handleUserBalance,
   handleResetBalance
 } from "./routes/slots";
+import {
+  getPragmaticSlots,
+  playPragmaticSlot,
+  getUserProfile,
+  getUserHistory,
+  getAdminStats,
+  resetUserBalance
+} from "./routes/pragmatic-slots";
 
 export function createServer() {
   const app = express();
