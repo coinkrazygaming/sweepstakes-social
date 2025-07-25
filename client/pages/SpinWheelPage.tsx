@@ -29,12 +29,16 @@ export default function SpinWheelPage() {
                 </Link>
               </Button>
               
-              <Button variant="outline" className="border-gold text-gold hover:bg-gold hover:text-black">
-                Login
-              </Button>
-              <Button className="bg-gold text-black hover:bg-gold-dark font-medium">
-                Sign Up
-              </Button>
+              <AuthModal>
+                <Button variant="outline" className="border-gold text-gold hover:bg-gold hover:text-black">
+                  Login
+                </Button>
+              </AuthModal>
+              <AuthModal>
+                <Button className="bg-gold text-black hover:bg-gold-dark font-medium">
+                  Sign Up
+                </Button>
+              </AuthModal>
             </div>
           </div>
         </div>
