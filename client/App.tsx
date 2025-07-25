@@ -22,7 +22,27 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/spin-wheel" element={<SpinWheelPage />} />
+
+          {/* Game Routes */}
+          <Route path="/games" element={<PlaceholderPage title="All Games" description="Browse all available sweepstakes and games" icon={<Gamepad2 className="h-12 w-12 text-gold" />} />} />
+          <Route path="/scratch-cards" element={<PlaceholderPage title="Scratch Cards" description="Scratch to reveal instant prizes" icon={<Gift className="h-12 w-12 text-gold" />} />} />
+          <Route path="/daily-draws" element={<PlaceholderPage title="Daily Draws" description="Enter daily prize drawings" icon={<Trophy className="h-12 w-12 text-gold" />} />} />
+          <Route path="/instant-win" element={<PlaceholderPage title="Instant Win" description="Play instant win games" icon={<Gift className="h-12 w-12 text-gold" />} />} />
+
+          {/* Community Routes */}
+          <Route path="/leaderboard" element={<PlaceholderPage title="Leaderboard" description="See top players and their achievements" icon={<TrendingUp className="h-12 w-12 text-gold" />} />} />
+          <Route path="/winners" element={<PlaceholderPage title="Winners Gallery" description="Browse recent winners and success stories" icon={<Trophy className="h-12 w-12 text-gold" />} />} />
+          <Route path="/referrals" element={<PlaceholderPage title="Refer Friends" description="Invite friends and earn bonus entries" icon={<Share className="h-12 w-12 text-gold" />} />} />
+          <Route path="/blog" element={<PlaceholderPage title="Blog" description="Latest news, tips, and winner stories" icon={<FileText className="h-12 w-12 text-gold" />} />} />
+
+          {/* Support Routes */}
+          <Route path="/help" element={<PlaceholderPage title="Help Center" description="Find answers to common questions" icon={<MessageCircle className="h-12 w-12 text-gold" />} />} />
+          <Route path="/contact" element={<PlaceholderPage title="Contact Us" description="Get in touch with our support team" icon={<MessageCircle className="h-12 w-12 text-gold" />} />} />
+          <Route path="/terms" element={<PlaceholderPage title="Terms of Service" description="Read our terms and conditions" icon={<FileText className="h-12 w-12 text-gold" />} />} />
+          <Route path="/privacy" element={<PlaceholderPage title="Privacy Policy" description="Learn how we protect your privacy" icon={<Shield className="h-12 w-12 text-gold" />} />} />
+
+          {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
