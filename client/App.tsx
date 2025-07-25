@@ -10,6 +10,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SpinWheelPage from "./pages/SpinWheelPage";
 import SlotsPage from "./pages/SlotsPage";
+import PragmaticSlotsPage from "./pages/PragmaticSlotsPage";
+import UserDashboard from "./pages/UserDashboard";
+import AdminDashboard from "./pages/AdminDashboard";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import { Trophy, Users, Gift, Share, Gamepad2, TrendingUp, User, MessageCircle, FileText, Shield } from "lucide-react";
 
