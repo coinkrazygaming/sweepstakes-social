@@ -95,7 +95,8 @@ export default function Index() {
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
-              <Link to="/games" className="text-white hover:text-gold transition-colors">Games</Link>
+              <Link to="/pragmatic-slots" className="text-white hover:text-gold transition-colors">Pragmatic Slots</Link>
+              <Link to="/dashboard" className="text-white hover:text-gold transition-colors">Dashboard</Link>
               <Link to="/leaderboard" className="text-white hover:text-gold transition-colors">Leaderboard</Link>
               <Link to="/winners" className="text-white hover:text-gold transition-colors">Winners</Link>
               <Link to="/referrals" className="text-white hover:text-gold transition-colors">Refer Friends</Link>
