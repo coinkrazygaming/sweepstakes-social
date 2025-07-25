@@ -96,6 +96,20 @@ export default {
             height: "0",
           },
         },
+        "spin-slow": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { boxShadow: "0 0 20px rgba(255, 215, 0, 0.8)" },
+          "50%": { boxShadow: "0 0 40px rgba(255, 215, 0, 1)" },
+        },
+        "bounce-light": {
+          "0%, 20%, 53%, 80%, 100%": { transform: "translate3d(0,0,0)" },
+          "40%, 43%": { transform: "translate3d(0, -30px, 0)" },
+          "70%": { transform: "translate3d(0, -15px, 0)" },
+          "90%": { transform: "translate3d(0, -4px, 0)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
