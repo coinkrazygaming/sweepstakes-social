@@ -25,5 +25,11 @@ export function createServer() {
 
   app.get("/api/demo", handleDemo);
 
+  // Slots API routes
+  app.post("/api/slots/spin", handleSlotSpin);
+  app.get("/api/slots/stats", handleSlotStats);
+  app.get("/api/slots/balance/:userId?", handleUserBalance);
+  app.post("/api/slots/reset-balance/:userId?", handleResetBalance);
+
   return app;
 }
