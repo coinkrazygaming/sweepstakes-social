@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SpinWheelPage from "./pages/SpinWheelPage";
+import SlotsPage from "./pages/SlotsPage";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import { Trophy, Users, Gift, Share, Gamepad2, TrendingUp, User, MessageCircle, FileText, Shield } from "lucide-react";
 
