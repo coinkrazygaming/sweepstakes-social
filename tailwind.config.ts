@@ -114,6 +114,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-slow": "spin-slow 3s linear infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
+        "bounce-light": "bounce-light 2s ease-in-out infinite",
       },
     },
   },
