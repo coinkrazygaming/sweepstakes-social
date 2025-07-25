@@ -92,12 +92,16 @@ export default function Index() {
                 <Sparkles className="h-4 w-4 text-gold" />
                 <span className="text-white font-medium">{userPoints.toLocaleString()} pts</span>
               </div>
-              <Button variant="outline" className="border-gold text-gold hover:bg-gold hover:text-black">
-                Login
-              </Button>
-              <Button className="bg-gold text-black hover:bg-gold-dark font-medium">
-                Sign Up
-              </Button>
+              <AuthModal>
+                <Button variant="outline" className="border-gold text-gold hover:bg-gold hover:text-black">
+                  Login
+                </Button>
+              </AuthModal>
+              <AuthModal>
+                <Button className="bg-gold text-black hover:bg-gold-dark font-medium">
+                  Sign Up
+                </Button>
+              </AuthModal>
             </div>
           </div>
         </div>
